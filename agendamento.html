@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - Clinica Vida Plena</title>
+</head>
+
+<body>
+    <header>
+        <h1>Clinica Vida Plena</h1>
+        <nav><a href="index.html">Inicio</a>
+            <a href="agendamento.html">agendamento</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Agende sua consulta</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="telefone">Telefone</label>
+            <input 
+                type="tel"
+                name="telefone" 
+                id="telefone"
+                required
+            >
+            <br>
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data">
+            <br>
+            <label for="hora">Horario</label>
+            <input type="time" name="hora" id="hora">
+            <br>
+            <label for="especialidades">Especialidades</label>
+            <select name="especialidades" id="especialidades">
+                <option value="">Selecione uma opção</option>
+                <option value="clinico-geral">Clinica Geral</option>
+                <option value="cardiologia">Cardiologia</option>
+                <option value="demartologia">Demartologia</option>
+                <option value="pediatria">Pediatria</option>
+            </select>
+            <br>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" rows="4"></textarea>
+            <br>
+            <button type="submit">Confirmar Agendamento</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            Clinica Vida Plena - Todos os direitos reservado.
+        </p>
+    </footer>
+</body>
+
+</html>
